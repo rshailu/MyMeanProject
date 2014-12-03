@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Module dependencies.
+ * Module dependencies. Add to git my changes
  */
 var mongoose = require('mongoose'),
 	errorHandler = require('./errors.server.controller'),

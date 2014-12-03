@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mymeanproject',
+	db: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://meanuser:meanpass@candidate.44.mongolayer.com:10048,candidate.45.mongolayer.com:10074/mean-shool_cool',
 	assets: {
 		lib: {
 			css: [
